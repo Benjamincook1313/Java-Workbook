@@ -8,10 +8,13 @@ public class WeatherNetwork {
         //IF - ELSE IF - ELSE STATEMENTS HERE!
 
         //if temp between -15 and -1: "The forecast is FREEZING! Stay home!"
+        if(temp > -15 && temp < -1) System.out.println("The forecast si Freezing! Stay home!");
 
         //if temp between 0 and 10: "The forecast is Chilly. Wear a coat!";
+        else if(temp > 0 && temp < 10) System.out.println("The forecast is Chilly. Wear a coat!");
 
         //else: It's warm. go outside!
+        else System.out.println("It's warm. go outside!");
 
         System.out.println(forecast);
     }
