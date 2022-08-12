@@ -45,6 +45,11 @@ public class Blackjack {
      *   1. Gets a random number between 1 and 13.
      *   2. Returns a card.
      */
+    public static int rdmNum(){
+        double rdm = Math.random() * 13;
+        rdm++;
+        return (int)rdm;
+    }
 
     /** Task 2 – make a function that returns a String drawing of the card.
      * Function name – cardString
@@ -54,6 +59,30 @@ public class Blackjack {
      * Inside the function:
      *   1. Returns a String drawing of the card.
      */
+    public static String cardString(int cardNumber){
+        switch(cardNumber){
+            case 1: return "   _____\n"+
+                           "  |A _  |\n"+
+                           "  | ( ) |\n"+
+                           "  |(_'_)|\n"+
+                           "  |  |  |\n"+
+                           "  |____V|\n";
+            case 1: return
+            case 1: return
+            case 1: return
+            case 1: return
+            case 1: return
+            case 1: return
+            case 1: return
+            case 1: return
+            case 1: return
+            case 1: return
+            case 1: return
+            case 1: return
+            case 1: return
+            default: return 'not possible';
+        }
+    }
 
     public static String faceDown() {
         return
